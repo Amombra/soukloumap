@@ -1,0 +1,88 @@
+:root {
+    --primary: #141c33;
+    --secondary: #febb0c;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+.secondary-text-color {
+    color: var(--secondary);
+}
+
+.primary-text-color {
+    color: var(--primary);
+}
+
+.white-text-color {
+    color: white
+}
+
+.secondary-button {
+    background-color: var(--secondary);
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.secondary-button:hover {
+    background-color: white;
+    padding: 20px;
+    color: var(--secondary);
+    font-weight: bold;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    transition: ease-in 0.3s;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+.input-decoration {
+    background-color: transparent;
+    border-radius: 50px;
+    height: 40px;
+    color: white;
+    /* font-weight: bold; */
+    border: 1px solid var(--secondary);
+}
+
+.white-bloc {
+    background-color: white;
+    padding: 30px
+}
+
+.secondary-small-card {
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+    height: 100px;
+    width: 100px;
+}
+
+.white-mini-card {
+    background-color: white;
+    padding: 10px 20px;
+    color: var(--primary);
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+li a {
+    color: var(--primary);
+    padding: 15px;
+    background-color: white;
+    margin-right: 2px;
+    font-weight: bold;
+}
